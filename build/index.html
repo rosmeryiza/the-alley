@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>The Alley</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Zilla+Slab&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+	<!-- note the special href for files in the Flask "static" folder -->
+	<link rel="stylesheet" href="static/css/main.css">
+</head>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/fontawesome-all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img id="icon" src="static/images/cat.svg" width="30" height="30" class="d-inline-block align-top" alt="cat icon">
+        The Alley
+        </a>
+    </nav>
+
+     <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <p id="welcome">Welcome to The Alley! Click any breed to meet the alley cats.</p>
+                <!-- pairs is a list that must be sent here by a route function
+                The list will contain 45 pairs: a presidency number, and a
+                president's name -->
+                <div class="list-group">
+                    
+                            <a href="breed/1" class="list-group-item list-group-item-action">Abyssinian</a>
+                    
+                            <a href="breed/2" class="list-group-item list-group-item-action">American Bobtail</a>
+                    
+                            <a href="breed/3" class="list-group-item list-group-item-action">American Curl</a>
+                    
+                            <a href="breed/4" class="list-group-item list-group-item-action">American Shorthair</a>
+                    
+                            <a href="breed/5" class="list-group-item list-group-item-action">American Wirehair</a>
+                    
+                            <a href="breed/6" class="list-group-item list-group-item-action">Balinese-Javanese</a>
+                    
+                            <a href="breed/7" class="list-group-item list-group-item-action">Bengal</a>
+                    
+                            <a href="breed/8" class="list-group-item list-group-item-action">Birman</a>
+                    
+                            <a href="breed/9" class="list-group-item list-group-item-action">Bombay</a>
+                    
+                            <a href="breed/10" class="list-group-item list-group-item-action">British Shorthair</a>
+                    
+                            <a href="breed/11" class="list-group-item list-group-item-action">Burmese</a>
+                    
+                            <a href="breed/12" class="list-group-item list-group-item-action">Chartreux</a>
+                    
+                            <a href="breed/13" class="list-group-item list-group-item-action">Cornish Rex</a>
+                    
+                            <a href="breed/14" class="list-group-item list-group-item-action">Devon Rex</a>
+                    
+                            <a href="breed/15" class="list-group-item list-group-item-action">Egyptian Mau</a>
+                    
+                            <a href="breed/16" class="list-group-item list-group-item-action">European Burmese</a>
+                    
+                            <a href="breed/17" class="list-group-item list-group-item-action">Exotic Shorthair</a>
+                    
+                            <a href="breed/18" class="list-group-item list-group-item-action">Havana Brown</a>
+                    
+                            <a href="breed/19" class="list-group-item list-group-item-action">Himalayan</a>
+                    
+                            <a href="breed/20" class="list-group-item list-group-item-action">Japanese Bobtail</a>
+                    
+                            <a href="breed/21" class="list-group-item list-group-item-action">Korat</a>
+                    
+                            <a href="breed/22" class="list-group-item list-group-item-action">LaPerm </a>
+                    
+                            <a href="breed/23" class="list-group-item list-group-item-action">Maine Coon</a>
+                    
+                            <a href="breed/24" class="list-group-item list-group-item-action">Manx</a>
+                    
+                            <a href="breed/25" class="list-group-item list-group-item-action">Norweigan Forest</a>
+                    
+                            <a href="breed/26" class="list-group-item list-group-item-action">Ocicat</a>
+                    
+                            <a href="breed/27" class="list-group-item list-group-item-action">Oriental</a>
+                    
+                            <a href="breed/28" class="list-group-item list-group-item-action">Persian</a>
+                    
+                            <a href="breed/29" class="list-group-item list-group-item-action">Peterbald</a>
+                    
+                            <a href="breed/30" class="list-group-item list-group-item-action">Pixiebob</a>
+                    
+                            <a href="breed/31" class="list-group-item list-group-item-action">Ragamuffin</a>
+                    
+                            <a href="breed/32" class="list-group-item list-group-item-action">Ragdoll</a>
+                    
+                            <a href="breed/33" class="list-group-item list-group-item-action">Russian Blue</a>
+                    
+                            <a href="breed/34" class="list-group-item list-group-item-action">Savannah</a>
+                    
+                            <a href="breed/35" class="list-group-item list-group-item-action">Scottish Fold</a>
+                    
+                            <a href="breed/36" class="list-group-item list-group-item-action">Selkirk Rex</a>
+                    
+                            <a href="breed/37" class="list-group-item list-group-item-action">Siamese</a>
+                    
+                            <a href="breed/38" class="list-group-item list-group-item-action">Siberian</a>
+                    
+                            <a href="breed/39" class="list-group-item list-group-item-action">Singapura</a>
+                    
+                            <a href="breed/40" class="list-group-item list-group-item-action">Somali</a>
+                    
+                            <a href="breed/41" class="list-group-item list-group-item-action">Sphynx</a>
+                    
+                            <a href="breed/42" class="list-group-item list-group-item-action">Tonkinese</a>
+                    
+                            <a href="breed/43" class="list-group-item list-group-item-action">Toyger</a>
+                    
+                            <a href="breed/44" class="list-group-item list-group-item-action">Turkish Angora</a>
+                    
+                            <a href="breed/45" class="list-group-item list-group-item-action">Turkish Van</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+                    <p id="footnote">This app is an assignment for JOU4369: Advanced Web Apps at the University of Florida.</p>
+    </footer>
+
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

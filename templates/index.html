@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+            <img id="icon" src="static/images/cat.svg" width="30" height="30" class="d-inline-block align-top" alt="cat icon">
+        The Alley
+        </a>
+    </nav>
+
+     <div class="container">
+        <div class="row">
+            <div class="col-10">
+                <p id="welcome">Welcome to The Alley! Click any breed to meet the alley cats.</p>
+                <!-- pairs is a list that must be sent here by a route function
+                The list will contain 45 pairs: a presidency number, and a
+                president's name -->
+                <div class="list-group">
+                    {% for pair in pairs %}
+                            <a href="{{ url_for( 'detail', num=pair[0] ) }}" class="list-group-item list-group-item-action">{{ pair[1] }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+                    <p id="footnote">This app is an assignment for JOU4369: Advanced Web Apps at the University of Florida.</p>
+    </footer>
+{% endblock %}

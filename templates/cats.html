@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">
+        <img id="icon" src="{{ url_for('static', filename='images/cat.svg') }}" width="30" height="30" class="d-inline-block align-top" alt="cat icon">
+    The Alley
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ cats['Wikipedia-entry'] }}">{{ cats['Breed'] }} Wikipedia Entry</a>
+          </li>
+        </ul>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <h1> {{ cats['Breed'] }} </h1>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p id="descript">The {{ cats['Breed'] }} is a breed of {{ cats['Size'] }} size with a coat length of {{ cats['Coat '] }}. The average life expectancy for a {{ cats['Breed'] }} is {{ cats['Lifespan'] }}.
+            </p>
+        </div>
+        <div class="col-6">
+            <!-- NOTE the pattern for pointing to a file inside the static folder -->
+                <img id="cat-pic" src="{{ url_for('static', filename='images/' + cats['Image']) }}" class="img-fluid rounded" alt="cat portrait">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p id="footnote">This app is an assignment for JOU4369: Advanced Web Apps at the University of Florida.</p>
+</footer>
+
+{% endblock %}

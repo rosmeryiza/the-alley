@@ -1,0 +1,46 @@
+ID,Breed,Size,Coat ,Lifespan,Wikipedia-entry,Image
+1,Abyssinian,small to medium,medium,9 to 15 years,https://en.wikipedia.org/wiki/Abyssinian_cat,cats01.jpg
+2,American Bobtail,medium to large,medium (shorthair) and long (longhair),13 to 15 years,https://en.wikipedia.org/wiki/American_Bobtail,cats02.jpg
+3,American Curl,small to medium,short (shorthair) and semi-long (longhair),15 years or more,https://en.wikipedia.org/wiki/American_Curl,cats03.jpg
+4,American Shorthair,medium to large,short,15 to 20 years,https://en.wikipedia.org/wiki/American_Shorthair,cats04.jpg
+5,American Wirehair,medium to large,medium,7 to 12 years ,https://en.wikipedia.org/wiki/American_Wirehair,cats05.jpg
+6,Balinese-Javanese,medium,medium,up to 20 years,https://en.wikipedia.org/wiki/Balinese_cat,cats06.jpg
+7,Bengal,medium to large ,medium,12 to 16 years,https://en.wikipedia.org/wiki/Bengal_cat,cats07.jpg
+8,Birman,medium to large,medium to long,12 to 16 years,https://en.wikipedia.org/wiki/Birman,cats08.jpg
+9,Bombay,medium,short,15 to 20 years,https://en.wikipedia.org/wiki/Bombay_cat,cats09.jpg
+10,British Shorthair,medium to large,short,12 years or more,https://en.wikipedia.org/wiki/British_Shorthair,cats10.jpg
+11,Burmese,medium,male,16 to 18 years ,https://en.wikipedia.org/wiki/Burmese_cat,cats11.jpg
+12,Chartreux,medium to large,medium,12 to 15 years,https://en.wikipedia.org/wiki/Chartreux,cats12.jpg
+13,Cornish Rex,small to medium,short,11 to 15 years,https://en.wikipedia.org/wiki/Cornish_Rex,cats13.jpg
+14,Devon Rex,small to medium,short,9 to 15 years,https://en.wikipedia.org/wiki/Devon_Rex,cats14.jpg
+15,Egyptian Mau,medium,short to medium,13 to 16 years,https://en.wikipedia.org/wiki/Egyptian_Mau,cats15.jpg
+16,European Burmese,medium,short,10 to 15 years,https://en.wikipedia.org/wiki/Burmese_cat,cats16.jpg
+17,Exotic Shorthair,medium to large,short,12 to 14 years,https://en.wikipedia.org/wiki/Exotic_Shorthair,cats17.jpg
+18,Havana Brown,medium,short to medium,12 to 15 years,https://en.wikipedia.org/wiki/Havana_Brown,cats18.jpg
+19,Himalayan,medium to large,long,15 years or more,https://en.wikipedia.org/wiki/Himalayan_cat,cats19.jpg
+20,Japanese Bobtail,medium,long (longhaired) and short (shorthaired),15 to 18 years ,https://en.wikipedia.org/wiki/Japanese_Bobtail,cats20.jpg
+21,Korat,medium,short,15 years or more,https://en.wikipedia.org/wiki/Korat,cats21.jpg
+22,LaPerm ,medium,short to long,10 to 15 years,https://en.wikipedia.org/wiki/LaPerm,cats22.jpg
+23,Maine Coon,large,short to long,10 to 13 years,https://en.wikipedia.org/wiki/Maine_Coon,cats23.jpg
+24,Manx,medium to large,short (shorthair) and medium (longhair),8 to 14 years,https://en.wikipedia.org/wiki/Manx_cat,cats24.jpg
+25,Norweigan Forest,large,long,14 to 16 years,https://en.wikipedia.org/wiki/Norwegian_Forest_cat,cats25.jpg
+26,Ocicat,medium to large,short,15 to 18 years,https://en.wikipedia.org/wiki/Ocicat,cats26.jpg
+27,Oriental,small to medium,longhair,15 years or more,https://en.wikipedia.org/wiki/Oriental_Shorthair,cats27.jpg
+28,Persian,medium to large,long,15 to 20 years,https://en.wikipedia.org/wiki/Persian_cat,cats28.jpg
+29,Peterbald,small to medium,hairless,10 to 12 years,https://en.wikipedia.org/wiki/Peterbald,cats29.jpg
+30,Pixiebob,medium to large,short (shorthair) and medium (longhair),12 to 25 years,https://en.wikipedia.org/wiki/Pixie-bob,cats30.jpg
+31,Ragamuffin,large,medium-long,15 years or more,https://en.wikipedia.org/wiki/Ragamuffin_cat,cats31.jpg
+32,Ragdoll,medium,semi-long,12 to 17 years,https://en.wikipedia.org/wiki/Ragdoll,cats32.jpg
+33,Russian Blue,medium,short,10 to 15 years,https://en.wikipedia.org/wiki/Russian_Blue,cats33.jpg
+34,Savannah,large,short,12 to 20 years,https://en.wikipedia.org/wiki/Savannah_cat,cats34.jpg
+35,Scottish Fold,medium,medium-short (shorthair) and medium-long (longhair),11 to 15 years,https://en.wikipedia.org/wiki/Scottish_Fold,cats35.jpg
+36,Selkirk Rex,medium to large,short (shorthair) and long (longhair),10 to 15 years,https://en.wikipedia.org/wiki/Selkirk_Rex,cats36.jpg
+37,Siamese,medium,short,11 to 15 years,https://en.wikipedia.org/wiki/Siamese_cat,cats37.jpg
+38,Siberian,medium to large,semi-long,11 to 15 years,https://en.wikipedia.org/wiki/Siberian_cat,cats38.jpg
+39,Singapura,small,short,9 to 15 years,https://en.wikipedia.org/wiki/Singapura_cat,cats39.jpg
+40,Somali,medium to large,medium,10 to 12 years,https://en.wikipedia.org/wiki/Somali_cat,cats40.jpg
+41,Sphynx,medium,hairless,13 to 15 years,https://en.wikipedia.org/wiki/Sphynx_cat,cats41.jpg
+42,Tonkinese,medium,medium-short,10 to 16 years,https://en.wikipedia.org/wiki/Tonkinese_cat,cats42.jpg
+43,Toyger,medium,short,13 years or more,https://en.wikipedia.org/wiki/Toyger,cats43.jpg
+44,Turkish Angora,medium,semi-long,12 to 18 years,https://en.wikipedia.org/wiki/Turkish_Angora,cats44.jpg
+45,Turkish Van,medium to large,semi-long,12 to 17 years,https://en.wikipedia.org/wiki/Turkish_Van,cats45.jpg
